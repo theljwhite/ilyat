@@ -1,0 +1,60 @@
+{
+  "name": "ilyat-vscode",
+  "displayName": "Ilyat",
+  "description": "A dark theme for VSCode inspired by some of my favorite themes",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#23262E",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "publisher": "ljwhite",
+  "author": {
+    "name": "LJ White",
+    "url": "https://ljwhite.is"
+  },
+  "repository": {
+    "url": "https://github.com/theljwhite/ilyat"
+  },
+  "bugs": {
+    "url": "https://github.com/theljwhite/ilyat/issues"
+  },
+  "engines": {
+    "vscode": "1.93.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Ilyat",
+    "Theme",
+    "Andromeda",
+    "Dark"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ilyat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ilyat-color-theme.json"
+      },
+      {
+        "label": "Ilyat Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/IlyatVibrant.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {}
+}
