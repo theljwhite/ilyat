@@ -1,7 +1,8 @@
 {
   "name": "ilyat-vscode",
   "displayName": "Ilyat",
-  "description": "A dark theme for VSCode inspired by some of my favorite themes",
+  "version": "0.0.1",
+  "description": "A series of dark themes for VSCode inspired by some of my favorite themes",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#23262E",
@@ -31,10 +32,10 @@
     "Andromeda",
     "Dark"
   ],
+  "main": "./out/extension.js",
   "activationEvents": [
     "onStartupFinished"
   ],
-  "main": "./out/extension.js",
   "contributes": {
     "themes": [
       {
@@ -43,9 +44,9 @@
         "path": "./themes/Ilyat-color-theme.json"
       },
       {
-        "label": "Ilyat Vibrant",
+        "label": "Ilyat - Eva",
         "uiTheme": "vs-dark",
-        "path": "./themes/IlyatVibrant.json"
+        "path": "./themes/Ilyat-eva-color-theme.json"
       }
     ]
   },
@@ -56,5 +57,16 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.1",
+    "@types/vscode": "^1.95.0",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.16.0",
+    "glob": "^11.0.0",
+    "mocha": "^11.0.1",
+    "typescript": "^5.7.2"
+  }
 }

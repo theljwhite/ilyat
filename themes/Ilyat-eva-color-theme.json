@@ -65,7 +65,7 @@
     "tab.activeForeground": "#00e8c6",
     "tab.inactiveForeground": "#746f77",
 
-    "editor.background": "#262A33",
+    "editor.background": "#282c34",
     "editor.foreground": "#D5CED9",
     "editorLineNumber.foreground": "#746f77",
     "editorCursor.foreground": "#FFF",
@@ -204,14 +204,14 @@
       "scope": "constant.language",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FF9070"
+        "foreground": "#e06c75"
       }
     },
     {
       "name": "User-defined constant",
       "scope": ["constant.character", "constant.other"],
       "settings": {
-        "foreground": "#c594c5"
+        "foreground": "#A78CFA"
       }
     },
     {
@@ -219,6 +219,21 @@
       "scope": "variable.member",
       "settings": {
         "foreground": "#EE6A6F"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable.other,support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite,entity.name.type.enum,meta.method.body,entity.name.variable,meta.block.c,meta.class-struct-block,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python,variable.parameter.keyframe-list.css,meta.property-value.css,meta.property-value.scss,entity.name.tag.custom,entity.name.function.scss,variable,meta.function-call.c,meta.parens,support.constant.color.w3c-standard-color-name,support.constant.color.w3c-extended-color-name,constant.other.color.rgb-value.hex,constant.other.rgb-value,support.constant.color.w3c-extended-color-name.css,text.tex.latex constant.other.math.tex,constant.other.general.math.tex,constant.other.general.math.tex,constant.character.math.tex,constant.other.reference.citation.latex,code-runner.output,meta.preprocessor.macro entity.name.function.preprocessor,entity.name.type.enum,entity.name.variable.tuple-element,constant.other.color.rgb-value,constant.other.color.rgb-value punctuation.definition.constant,",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#B0B7C3"
+      }
+    },
+    {
+      "name": "Object property name",
+      "scope": "meta.object-literal.key",
+      "settings": {
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -230,7 +245,7 @@
         "keyword.operator.new.js"
       ],
       "settings": {
-        "foreground": "#c594c5"
+        "foreground": "#FF6AB3"
       }
     },
     {
@@ -244,7 +259,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#FA8763"
+        "foreground": "#FF9070"
       }
     },
     {
@@ -291,14 +306,14 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#c594c5"
+        "foreground": "#A78CFA"
       }
     },
     {
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#c594c5"
+        "foreground": "#A78CFA"
       }
     },
     {
@@ -344,14 +359,14 @@
       "scope": "entity.name.tag",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FF9070"
+        "foreground": "#e06c75"
       }
     },
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#c594c5"
+        "foreground": "#A78CFA"
       }
     },
     {
@@ -367,7 +382,7 @@
       "scope": ["support.function", "support.macro"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#6699cc"
+        "foreground": "#6495EE"
       }
     },
     {
@@ -375,7 +390,7 @@
       "scope": "support.constant",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c594c5"
+        "foreground": "#5fb3b3"
       }
     },
     {
@@ -390,7 +405,7 @@
       "name": "Library class/type",
       "scope": ["support.type", "support.class"],
       "settings": {
-        "foreground": "#6699cc"
+        "foreground": "#6495EE"
       }
     },
     {
@@ -530,11 +545,24 @@
       }
     },
     {
-      "name": "CSS Properties",
-      "scope": "support.type.property-name",
+      "name": "CSS Class Name",
+      "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "",
-        "foreground": "#ffffffdd"
+        "foreground": "#5fb3b3" //#FF6AB3
+      }
+    },
+    {
+      "name": "CSS Property Values",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#B0B7C3"
+      }
+    },
+    {
+      "name": "CSS Constant Property value",
+      "scope": "support.constant.property-value.css",
+      "settings": {
+        "foreground": "#FF9070"
       }
     },
     {
@@ -547,6 +575,13 @@
       "scope": "message.error",
       "settings": {
         "foreground": "#EE6A6F"
+      }
+    },
+    {
+      "name": "JSX children",
+      "scope": "meta.tag.tsx",
+      "settings": {
+        "foreground": "#B0B7C3"
       }
     }
   ]
