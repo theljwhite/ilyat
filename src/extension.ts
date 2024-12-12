@@ -1,8 +1,7 @@
 import * as vscode from "vscode";
 
 export async function activate() {
-  // await removeOldVersionAfterMigration();
-  console.log("Extension activated");
+  await removeOldVersionAfterMigration();
 }
 
 export function deactivate() {}

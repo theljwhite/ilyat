@@ -4,8 +4,7 @@ exports.activate = activate;
 exports.deactivate = deactivate;
 const vscode = require("vscode");
 async function activate() {
-    // await removeOldVersionAfterMigration();
-    console.log("Extension activated");
+    await removeOldVersionAfterMigration();
 }
 function deactivate() { }
 async function removeOldVersionAfterMigration() {

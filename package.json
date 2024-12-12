@@ -29,8 +29,10 @@
   "keywords": [
     "Ilyat",
     "Theme",
+    "Dark",
     "Andromeda",
-    "Dark"
+    "Eva",
+    "Poimandres"
   ],
   "main": "./out/extension.js",
   "activationEvents": [
@@ -44,9 +46,19 @@
         "path": "./themes/Ilyat-color-theme.json"
       },
       {
-        "label": "Ilyat - Eva",
+        "label": "Ilyat Mariana",
         "uiTheme": "vs-dark",
-        "path": "./themes/Ilyat-eva-color-theme.json"
+        "path": "./themes/Ilyat-mariana-color-theme.json"
+      },
+      {
+        "label": "Ilyat Poimandres",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ilyat-poimandres-color-theme.json"
+      },
+      {
+        "label": "Ilyat Poimandres Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ilyat-poimandres-darker-color-theme.json"
       }
     ]
   },
