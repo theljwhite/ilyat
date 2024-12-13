@@ -9,15 +9,15 @@
 
 </div>
 
-**Ilyat** (ill-e-yot) `0.0.1` theme with several variations inspired by some of my favorite themes - **Eva**, **Mariana**, and **Poimandres**. 🌟
+**Ilyat** (ill·e·yot) `0.0.1` theme with several variations inspired by some of my favorite themes - **Eva**, **Mariana**, and **Poimandres**. 👾
 
 ## Easy Installation
 
-1. Open the extensions sidebar in Visual Studio Code
-2. Search for **Ilyat Theme**
+1. Click on the **Exstensions** icon in VSCode sidebar.
+2. Search for **Ilyat Theme**.
 3. Click **Install** to install it.
 4. Click **Reload** to reload your editor.
-5. File ＞ Preferences ＞ Color Theme ＞ **Ilyat**.
+5. File ＞ Preferences ＞ Theme > Color Theme ＞ **Ilyat**.
 6. Enjoy and [rate five-stars](https://marketplace.visualstudio.com/items?itemName=ljwhite.ilyat-vscode&ssr=false#review-details). 🌟 👽
 
 **Ilyat**
@@ -29,7 +29,7 @@
 **Ilyat Poimandres**
 ![ilyat-poimandres](images/ilyat-poimandres.png)
 
-The screencap above uses the following settings:
+The screencaps above use the following settings in VSCode `settings.json`:
 
 ```json
 {
