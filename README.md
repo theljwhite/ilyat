@@ -18,9 +18,9 @@
 3. Click **Install** to install it.
 4. Click **Reload** to reload your editor.
 5. File ＞ Preferences ＞ Color Theme ＞ **Ilyat**.
-6. 🌟 Enjoy and [rate five-stars](https://marketplace.visualstudio.com/items?itemName=ljwhite.ilyat-vscode&ssr=false#review-details).
+6. Enjoy and [rate five-stars](https://marketplace.visualstudio.com/items?itemName=ljwhite.ilyat-vscode&ssr=false#review-details). 🌟 👽
 
-> **NOTE**: This theme includes a variant with italic keywords that looks great with fonts like Operator Mono or Catograph Mono
+> **NOTE**: The example screenshots below use `"editor.bracketPairColorization.enabled": true` in VSCode `settings.json`.
 
 **Ilyat**
 ![ilyat-theme](images/ilyat.png)
