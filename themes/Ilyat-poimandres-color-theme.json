@@ -552,7 +552,6 @@
     {
       "scope": [
         "variable.parameter",
-        "variable.other.readwrite.js",
         "meta.definition.variable variable.other.readwrite"
       ],
       "settings": {
@@ -632,7 +631,9 @@
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution",
-        "meta.objectliteral"
+        "meta.objectliteral",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.ts"
       ],
       "settings": {
         "foreground": "#e4f0fb"
