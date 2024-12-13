@@ -21,7 +21,7 @@
     "url": "https://github.com/theljwhite/ilyat/issues"
   },
   "engines": {
-    "vscode": "1.93.1"
+    "vscode": "^1.14.0"
   },
   "categories": [
     "Themes"

@@ -9,7 +9,7 @@
 
 </div>
 
-**Ilyat** `0.0.1` theme with several variations inspired by some of my favorite themes - **Eva**, **Mariana**, and **Poimandres**.
+**Ilyat** (ill-e-yot) `0.0.1` theme with several variations inspired by some of my favorite themes - **Eva**, **Mariana**, and **Poimandres**. 🌟
 
 ## Easy Installation
 
