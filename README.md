@@ -20,8 +20,6 @@
 5. File ＞ Preferences ＞ Color Theme ＞ **Ilyat**.
 6. Enjoy and [rate five-stars](https://marketplace.visualstudio.com/items?itemName=ljwhite.ilyat-vscode&ssr=false#review-details). 🌟 👽
 
-> **NOTE**: The example screenshots below use `"editor.bracketPairColorization.enabled": true` in VSCode `settings.json`.
-
 **Ilyat**
 ![ilyat-theme](images/ilyat.png)
 
@@ -30,6 +28,16 @@
 
 **Ilyat Poimandres**
 ![ilyat-poimandres](images/ilyat-poimandres.png)
+
+The screencap above uses the following settings:
+
+```json
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontSize": 12.2,
+  "editor.fontFamily": "Geist Mono Variable"
+}
+```
 
 ## License
 
