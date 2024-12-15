@@ -1,7 +1,7 @@
 {
   "name": "ilyat-vscode",
   "displayName": "Ilyat",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A series of dark themes for VSCode inspired by some of my favorite themes - Eva, Mariana, Poimandres",
   "icon": "images/ilyat-logo-temp.png",
   "galleryBanner": {
