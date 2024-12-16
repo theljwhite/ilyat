@@ -5,7 +5,7 @@
 # Ilyat Theme for VSCode
 
 [![release](https://img.shields.io/github/v/release/theljwhite/ilyat.svg?style=for-the-badge&logo=github&logoColor=white&colorA=2b303b&colorB=5fb3b3)](https://github.com/theljwhite/ilyat/releases/latest)
-[![rating](https://img.shields.io/visual-studio-marketplace/stars/ljwhite.ilyat-vscode?style=for-the-badge&logo=reverbnation&logoColor=white&colorA=2b303b&colorB=FFE66D)](https://marketplace.visualstudio.com/items?itemName=ljwhite.ilyat-vscode)
+[![rating](https://img.shields.io/visual-studio-marketplace/stars/LJWhite-WV.ilyat-vscode?style=for-the-badge&logo=reverbnation&logoColor=white&colorA=2b303b&colorB=FFE66D)](https://marketplace.visualstudio.com/items?itemName=LJWhite-WV.ilyat-vscode)
 
 </div>
 
@@ -13,7 +13,7 @@
 
 ## Easy Installation
 
-1. Click on the **Exstensions** icon in VSCode sidebar.
+1. Click on the **Extensions** icon in VSCode sidebar.
 2. Search for **Ilyat Theme**.
 3. Click **Install** to install it.
 4. Click **Reload** to reload your editor.
