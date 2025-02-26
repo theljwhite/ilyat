@@ -9,7 +9,7 @@
 
 </div>
 
-**Ilyat** (ill·e·yot) `0.1.0` theme with several variations inspired by some of my favorite themes - **Eva**, **Mariana**, and **Poimandres**. 👾
+**Ilyat** (ill·e·yot) `0.2.0` theme with several variations inspired by some of my favorite themes - **Eva**, **Mariana**, and **Poimandres**. 👾
 
 ## Easy Installation
 
@@ -29,7 +29,10 @@
 **Ilyat Poimandres**
 ![ilyat-poimandres](images/ilyat-poimandres.png)
 
-The screencaps above use the following settings in VSCode `settings.json`:
+**Ilyat Cosmic**
+![ilyat-cosmic](images/ilyat-cosmic.png)
+
+The screencaps above use the following settings in VSCode `settings.json`, except for Ilyat Cosmic:
 
 ```json
 {
@@ -38,6 +41,8 @@ The screencaps above use the following settings in VSCode `settings.json`:
   "editor.fontFamily": "Geist Mono Variable"
 }
 ```
+
+Ilyat Cosmic has built in bracket pair colorization.
 
 ## License
 

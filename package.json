@@ -1,7 +1,7 @@
 {
   "name": "ilyat-vscode",
   "displayName": "Ilyat",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A series of dark themes for VSCode inspired by some of my favorite themes - Eva, Mariana, Poimandres",
   "icon": "images/ilyat-logo-temp.png",
   "galleryBanner": {
@@ -59,6 +59,11 @@
         "label": "Ilyat Poimandres Darker",
         "uiTheme": "vs-dark",
         "path": "./themes/Ilyat-poimandres-darker-color-theme.json"
+      },
+      {
+        "label": "Ilyat Cosmic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ilyat-cosmic-color-theme.json"
       }
     ]
   },
